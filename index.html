@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  
+  <style>
+    body {
+      margin: 0;
+      height: 150vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Arial', sans-serif; 
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.95); /* little transparent for nicer look */
+      padding: 20px 40px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+      max-width: 350px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .balloons {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      animation: float 3s ease-in-out infinite;
+    }
+    .card h1 {
+      font-size: 1.4em;
+      font-weight: bold;
+      line-height: 1.5;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #ff6f61, #ff9a9e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .birthday-img {
+      width: 220px;
+      height: auto;
+      display: block;
+      margin: 15px auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+      border: 4px solid #ff6f61;
+    }
+    .cake {
+      font-size: 3em;
+      margin: 15px 0;
+    }
+    .card p {
+      color: #333;
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .signature {
+      font-weight: bold;
+      color: #444;
+      margin-top: 20px;
+    }
+
+    /* Animations */
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="balloons">🎈🎉🎈</div>
+    <h1>Happy Birthday my lovely bro, <br>May Allah grant you all your wishes and always protect you.</h1>
+    
+    <img src="mh.jpeg" alt="Birthday Photo" class="birthday-img">
+    
+    <div class="cake">🎂</div>
+    
+    <p>
+      Wishing you a day filled with laughter, love, and endless joy.  
+      May your heart be surrounded by all the people who make you happiest.  
+      May this new chapter of your life bring you success, peace,  
+      and beautiful memories to treasure forever.  
+      Celebrate big, smile often, and keep shining just the way you do! 🌟
+    </p>
+    
+    <div class="signature">– From Hafifa 💖</div>
+  </div>
+</body>
+</html>
